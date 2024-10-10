@@ -16,6 +16,8 @@
 		D74E703F2CB4514200A5F053 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74E703E2CB4514200A5F053 /* OrderView.swift */; };
 		D74E70412CB6F80700A5F053 /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74E70402CB6F80700A5F053 /* Appetizer.swift */; };
 		D74E70432CB7510100A5F053 /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74E70422CB7510100A5F053 /* AppetizerListCell.swift */; };
+		D74E70452CB858E400A5F053 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74E70442CB858E300A5F053 /* NetworkManager.swift */; };
+		D74E70472CB859FC00A5F053 /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74E70462CB859FC00A5F053 /* APError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		D74E703E2CB4514200A5F053 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		D74E70402CB6F80700A5F053 /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
 		D74E70422CB7510100A5F053 /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
+		D74E70442CB858E300A5F053 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		D74E70462CB859FC00A5F053 /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,8 @@
 				D74E70322CB44EE400A5F053 /* Preview Content */,
 				D74E70402CB6F80700A5F053 /* Appetizer.swift */,
 				D74E70422CB7510100A5F053 /* AppetizerListCell.swift */,
+				D74E70442CB858E300A5F053 /* NetworkManager.swift */,
+				D74E70462CB859FC00A5F053 /* APError.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -153,9 +159,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D74E70412CB6F80700A5F053 /* Appetizer.swift in Sources */,
+				D74E70472CB859FC00A5F053 /* APError.swift in Sources */,
 				D74E70432CB7510100A5F053 /* AppetizerListCell.swift in Sources */,
 				D74E703D2CB4513500A5F053 /* AccountView.swift in Sources */,
 				D74E702F2CB44EE100A5F053 /* AppetizerTabView.swift in Sources */,
+				D74E70452CB858E400A5F053 /* NetworkManager.swift in Sources */,
 				D74E702D2CB44EE100A5F053 /* AppetizersApp.swift in Sources */,
 				D74E703B2CB4510A00A5F053 /* AppetizerListView.swift in Sources */,
 				D74E703F2CB4514200A5F053 /* OrderView.swift in Sources */,

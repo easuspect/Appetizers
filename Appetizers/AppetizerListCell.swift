@@ -29,7 +29,8 @@ struct AppetizerListCell: View {
                     .fontWeight(.semibold)
             }
             .padding(.leading)
-        }    }
+        }
+    }
 }
 
 struct AppetizerListCell_Previews: PreviewProvider {
