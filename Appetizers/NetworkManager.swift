@@ -67,7 +67,7 @@ final class NetworkManager {
             /*9. guard let _ = error else { ... }
              Bu satırda, eğer bir error (hata) varsa, işlemler durduruluyor ve unableToComplete hatasıyla geri dönülüyor.
              Hata olmadığı durumda, program devam eder.*/
-            guard let _ = error else {
+            if let _ = error {
                 completed(.failure(.unableToComplete))
                 return
             }
