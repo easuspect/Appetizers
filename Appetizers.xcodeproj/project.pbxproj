@@ -19,6 +19,7 @@
 		D74E70452CB858E400A5F053 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74E70442CB858E300A5F053 /* NetworkManager.swift */; };
 		D74E70472CB859FC00A5F053 /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74E70462CB859FC00A5F053 /* APError.swift */; };
 		D74E70522CBE9EB400A5F053 /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74E70512CBE9EB300A5F053 /* AppetizerListViewModel.swift */; };
+		D7C28B9D2CD2D217004017EC /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C28B9C2CD2D217004017EC /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		D74E70442CB858E300A5F053 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		D74E70462CB859FC00A5F053 /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
 		D74E70512CBE9EB300A5F053 /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
+		D7C28B9C2CD2D217004017EC /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				D74E70442CB858E300A5F053 /* NetworkManager.swift */,
 				D74E70462CB859FC00A5F053 /* APError.swift */,
 				D74E70512CBE9EB300A5F053 /* AppetizerListViewModel.swift */,
+				D7C28B9C2CD2D217004017EC /* Alert.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				D74E702F2CB44EE100A5F053 /* AppetizerTabView.swift in Sources */,
 				D74E70452CB858E400A5F053 /* NetworkManager.swift in Sources */,
 				D74E702D2CB44EE100A5F053 /* AppetizersApp.swift in Sources */,
+				D7C28B9D2CD2D217004017EC /* Alert.swift in Sources */,
 				D74E703B2CB4510A00A5F053 /* AppetizerListView.swift in Sources */,
 				D74E703F2CB4514200A5F053 /* OrderView.swift in Sources */,
 			);
